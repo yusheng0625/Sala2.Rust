@@ -1,0 +1,14 @@
+[package]
+name = "salsa200"
+version = "0.1.0"
+authors = []
+edition = "2018"
+
+[lib]
+name = "salsa200"
+path = "src/lib.rs"
+crate-type = ["dylib"]
+
+[dependencies]
+rustler = "0.21.0"
+
